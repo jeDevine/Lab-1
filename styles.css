@@ -10,5 +10,52 @@ ul{
 }
 
 .info{
-    border-left: 5px solid olive;
+    border-left: 5px solid #69696a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.button{
+    padding-block: 20px;
+    text-align: center;
+    display: block;
+    background-color: #000;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+footer{
+    height: 40px;
+    width: 90%;
+    background-color:  rgba(247, 193, 162, 0.7);;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+}
+
+.box{
+    display: inline;
+}
+
+.footerInc{
+    display: inline-block;
+    margin: 0%;
+    width: 20%;
+    padding: 15px;
+}
+
+
+
+.list{
+    float: right;
+}
+
+.links{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.nav{
+    margin-bottom:15px;
 }
