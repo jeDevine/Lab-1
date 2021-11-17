@@ -1,7 +1,12 @@
 body{
-    padding: 5%;
+    padding: 0%;
     font-family: sans-serif;
     background-color: #f9fafc;
+    margin: 0px;
+}
+
+.body{
+    padding: 5%;
 }
 
 ul{
@@ -30,11 +35,12 @@ h1{
 
 footer{
     height: 40px;
-    width: 90%;
+    width: 100%;
     background-color:  rgba(247, 193, 162, 0.7);
-    display: inline-block;
+    display: flex;
     position: fixed;
     bottom: 0;
+    flex-direction: column;
 }
 
 .box{
